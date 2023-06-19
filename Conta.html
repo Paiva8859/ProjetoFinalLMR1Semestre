@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="Conta.css">
+    <link rel="stylesheet" href="HeaderFooter.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <figure class="logo-img-container">
+                <img src="https://d2aflxsgc0z59a.cloudfront.net/portal-assets/home/home-1.png" alt="Logo"
+                    class="logo-img">
+            </figure>
+        </div>
+
+        <nav>
+            <ul class="nav-content">
+                <li>
+                    <a href="Inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="CrieSeuEvento.html">Crie Seu Evento</a>
+                </li>
+                <li>
+                    <a id="aConta" href="Conta.html">Conta</a>
+
+                    <div id="logado">
+
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <article>
+            <section class="paginaConta">
+                <section class="conteudoConta">
+                    <div class="title">
+                        <h1>
+                            Área do Usuário
+                        </h1>
+                    </div>
+
+                    <div class="insignias">
+                        <h3>
+                            Aqui você confere os eventos dos quais ja participou conosco.
+                            Lembre-se que se increvendo para qualquer evento em nosso site, você
+                            ganha uma insígnia exclusiva do evento!
+                        </h3>
+
+                        <div class="cards">
+                            <p>Suas Insígnias:</p>
+
+                            <div class="card" id="card1">
+                                <span>Festival do Pão na
+                                    Casa do João</span>
+                                <img src="https://superprix.vteximg.com.br/arquivos/ids/188524-600-600/49344.png?v=637236932905370000"
+                                    alt="">
+                            </div>
+
+                            <div class="card" id="card2">
+                                <span>Festa na Casa
+                                    da Mãe Joana</span>
+                                <img src="https://cdn-icons-png.flaticon.com/512/2824/2824564.png" alt="">
+                            </div>
+
+                            <div class="card" id="card3">
+                                <span>Carros Antigos</span>
+                                <img src="https://www.coletessafari.com/image/cache/data/INFANTIL/herbie-limpo-980x650.png"
+                                    alt="">
+                            </div>
+
+                            <div class="card" id="card4">
+                                <span>Jogos Retrô</span>
+                                <img src="https://dbdzm869oupei.cloudfront.net/img/t-shirts/preview/76787.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </section>
+
+            <section class="form" id="formCadastro">
+                <form method="POST">
+                    <h1 class="cad">Cadastre-se</h1>
+                    <h1 class="log">Bem vindo(a) de volta</h1>
+                    <fieldset>
+                        <span class="avisoE">Insira um usuário válido (x@x)</span>
+                        <div class="campoContainer">
+                            <label for="user">Usuário:</label>
+                            <input type="text" name="user" id="user" placeholder="Digite aqui...">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <span class="avisoS">Insira uma senha válida (mínimo 6 caracteres)</span>
+                        <div class="campoContainer">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Digite aqui...">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="submitCamp">
+                        <input class="logar" type="submit" value="ACESSAR">
+                        <span class="cadBtt">Já tem uma conta? faça <button class="facaLogin"
+                                type="button">Login</button></span>
+                        <span class="logBtt">Novo usuário? faça seu <button class="facaCadastro"
+                                type="button">Cadastro</button></span>
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <span>GPaiva | Eventos</span>
+    </footer>
+</body>
+
+<script src="Conta.js"></script>
+
+</html>
